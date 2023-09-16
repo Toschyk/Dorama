@@ -9,12 +9,12 @@ header {
     height: 70px;
     align-items: center;
     justify-content: center;
-    background: darkgreen;
+    background: rgb(63, 63, 63);
 }
 
 menu {
     height: 100%;
-    width: 90%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -50,6 +50,15 @@ body {
     background-size: cover; 
 }
 
+a{
+    width: 150px;
+    height: 50px;
+    background-color: darkgreen;
+    color: rgb(0, 255, 55);
+    border-radius: 50px;
+    font-size: 25px;
+}
+
 button{
     width: 150px;
     height: 50px;
@@ -60,7 +69,7 @@ button{
 }
 
 h1{
-    color: green;
+    color: rgb(104, 104, 104);
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
 }
@@ -73,7 +82,7 @@ h1{
     flex-direction: column;
 }
 h2{
-    color: rgb(0, 255, 0);
+    color: rgb(148, 148, 148);
     font-family: 'Comfortaa', cursive;
     font-size: 50px;
 }
@@ -104,7 +113,7 @@ h2{
     flex-direction: row;
 }
 .TEXT{
-    color: rgb(0, 255, 0);
+    color: rgb(146, 146, 146);
     font-size: 50px;
     font-family: 'Comfortaa', cursive;
 }
@@ -124,7 +133,7 @@ h2{
     flex-direction: column;
 }
 .Tov{
-    color: rgb(72, 255, 0);
+    color: rgb(94, 94, 94);
     font-size: 25px;
     margin-left: 945px;
     margin-top: 25px;  
@@ -141,7 +150,7 @@ h2{
 
 .e{
     width: 100%;
-    height: 300px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -149,7 +158,8 @@ h2{
     background-color: black;
 }
 .end{
-    color: rgb(72, 255, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Comfortaa', cursive;
     font-size: 25px;
     margin-top: 25px;  
 }
