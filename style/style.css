@@ -32,7 +32,7 @@ li {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-image: url(./imegs/LG.jpg);
+    background-image: url(img/back.jpg);
     background-size: cover;
 }
 
@@ -46,15 +46,15 @@ li {
 }
 
 body {
-    background: url(/img/back.jpg) no-repeat center center fixed;
+    background: url(img/back.jpg) no-repeat center center fixed;
     background-size: cover; 
 }
 
 a{
     width: auto;
     height: 50px;
-    background-color: rgb(39, 39, 39);
-    color: rgb(161, 161, 161);
+    background-color: rgb(255, 255, 255);
+    color: rgb(124, 124, 124);
     border-radius: 50px;
     font-size: 25px;
 }
@@ -63,7 +63,7 @@ button{
     width: 150px;
     height: 50px;
     background-color: rgb(92, 92, 92);
-    color: rgb(97, 97, 97);
+    color: rgb(255, 255, 255);
     border-radius: 50px;
     font-size: 25px;
 }
@@ -91,18 +91,6 @@ h2{
     height: 250px;
     border-radius: 100%;
     margin: 30px;
-}
-.a1{
-    background-image: url(./imegs/G.jfif);
-    background-size: cover;
-}
-.a2{
-    background-image: url(./imegs/T.jfif);
-    background-size: cover;
-}
-.a3{
-    background-image: url(./imegs/S.jfif);
-    background-size: cover;
 }
 .part{
     display: flex;
@@ -151,7 +139,7 @@ h2{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: black;
+    background-color: rgb(54, 54, 54);
 }
 .end{
     color: rgb(255, 255, 255);
