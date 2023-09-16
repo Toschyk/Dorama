@@ -46,15 +46,15 @@ li {
 }
 
 body {
-    background: url(./imegs/HZ.jpg) no-repeat center center fixed;
+    background: url(/img/back.jpg) no-repeat center center fixed;
     background-size: cover; 
 }
 
 a{
-    width: 150px;
+    width: auto;
     height: 50px;
-    background-color: darkgreen;
-    color: rgb(0, 255, 55);
+    background-color: rgb(39, 39, 39);
+    color: rgb(161, 161, 161);
     border-radius: 50px;
     font-size: 25px;
 }
@@ -62,8 +62,8 @@ a{
 button{
     width: 150px;
     height: 50px;
-    background-color: darkgreen;
-    color: rgb(0, 255, 55);
+    background-color: rgb(92, 92, 92);
+    color: rgb(97, 97, 97);
     border-radius: 50px;
     font-size: 25px;
 }
@@ -75,7 +75,7 @@ h1{
 }
 .b{
     width: 100%;
-    height: 900px;
+    height: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,10 +102,6 @@ h2{
 }
 .a3{
     background-image: url(./imegs/S.jfif);
-    background-size: cover;
-}
-.a4{
-    background-image: url(./imegs/J.jfif);
     background-size: cover;
 }
 .part{
